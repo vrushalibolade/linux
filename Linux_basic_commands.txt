@@ -1,0 +1,60 @@
+LINUX COMMANDS
+1] # - Root user
+2] ~ - Root directory
+3] su – super user (works same as admin in windows)
+4] sudo – super user do (sudo provides an efficient way to grant users the special rights to execute commands at system level)
+5] whoami – gives the user name (gives currently logged user)
+6] sudo su – chamge user to root
+7] id- gives user details
+8] wheel – used to control access to su or sudo commands.
+ 9] pwd – present working directory.
+10] cd / - change directory root
+11] cd – moves to your previous directory
+12] cd .. – moves one directory back
+13] cd ~ - goes to another users home directory.
+14] ls – la – display hidden files in a list format.
+15] proc – contains process details.
+16] var – contains log details.
+17] opt – optional files.
+18]  mkdir – creates a directory/folder.
+19] touch – creates empy files.
+20] rmdir – delete a folder (but only if is empty)
+21] rm – delete a files.
+22] uptime – gives the total time of running system.
+23] history – gives all the commands previously used.
+24] cp – moves files from one directory to another.
+25] mv – rename and replace the files.
+26] df -h – shows details about harddisk, filesystem.
+27] free -m – shows RAM details.
+28] nano – it is text editor.
+29] cat – display file contents on terminal.
+30] echo – used to print anything on terminal.
+31] id – tells about the users id in the system.
+32] useradd – to add user.
+33] userdel – to delete created user.
+34] usermod – to modify the properties of an existing user.
+35] groupadd – to add group.
+36] groupdel – to delete group.
+37] who – display which user have logged in.
+38] last – display a list of users who have previously logged in.
+39] lsof -u  (List Open Files and Shows Open Files) -  tells user activity.
+40] chmod – to change the permission.
+41] chown – change the owner of the file.
+42] ls – used in listing contents inside a directory.
+43] top- (It is task manager) to display system performance information.
+44] ps – display the processes started by current user.
+45] ps aux – display all the process.
+46] grep – (Global regular expression print) is used in searching and matching text files.
+47]  kill – used to send signal to a process, which can be used to kill the process.
+48]  journalctl – used to view system, kernel and journal logs.
+49] ip – (update version) display the current ip address and allows you to view and manage the current configuration of network interfaces, ip addresses , routers.
+50] ip addr show – display current address configuration.
+51] ip route show – display the current routing tables.
+52] ifcongif – removes the specified network interface from the list of interfaces.
+53] netstat – to display all the network connections on a system.
+54] ping – display status between source and destination.
+55] nsloopup – queries internet domain name servers in two modes.
+56] traceroute – used for troubleshooting.
+57] dig – display DNS quries/ record type.
+58] sed – It is used to change and replace the word /or modify.
+59] find – to find.
